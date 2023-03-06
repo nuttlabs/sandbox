@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html>
-<head>
-</head>
-<body>
-	<h1>Hello, world!</h1>
-</body>
+	<head>
+		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+	</head>
+	<body>
+		<form onsubmit="window.location.href = 'https://nutt.io'">
+			<input type="email" placeholder="Email address" required>
+			<div class="g-recaptcha" data-sitekey="6LcRFtokAAAAADdE65US1cV3XXwBhyNcQuAzCkge"></div>
+			<input type="submit" value="Submit">
+		</form>
+	</body>
 </html>
